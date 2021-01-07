@@ -1,3 +1,9 @@
+# Memory Game
+
+The app has 3 pages, Main Menu, Game and Game Complete. Flip cards over to match them, and beat the high scores!
+
+The tech stack consists of React, React Hooks, Redux and React Spring.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
