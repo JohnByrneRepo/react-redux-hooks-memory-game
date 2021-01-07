@@ -12,7 +12,7 @@ const scores = (state = initialState, action) => {
     case UPDATE_HIGH_SCORES: {
       let newIndex = 0;
       let foundIndex = false;
-      let newHighscores = state.highScores;
+      let newHighscores = { ...state.highScores };
       state.highScores.forEach((score, index) => {
         if (action.payload.score.value > score.value && !foundIndex) {
           newIndex = index;
