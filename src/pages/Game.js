@@ -26,7 +26,7 @@ const Game = () => {
       '#263238',
     ]
     const newGame = []
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 6; i++) {
       const firstOption = {
         id: 2 * i,
         colorId: i,
