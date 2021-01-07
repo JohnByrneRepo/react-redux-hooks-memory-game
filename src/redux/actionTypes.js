@@ -1,0 +1,3 @@
+export const SET_USERNAME = "SET_USERNAME";
+export const GET_USERNAME = "GET_USERNAME";
+export const UPDATE_HIGH_SCORES = "UPDATE_HIGH_SCORES";
